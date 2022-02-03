@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base</title>
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.css' %}">
+    <script type="text/javascript">
+    </script>
+
+</head>
+<body>
+{% include 'layouts/navbar.html' %}
+
+{% block content %}
+
+{% endblock %}
+
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.js' %}"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+async defer>
+</script>
+</body>
+</html>
