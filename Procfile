@@ -1,2 +1,2 @@
-web:gunicorn to_shop.wsgi
+web: gunicorn to_shop.wsgi
 
